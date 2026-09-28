@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.1.0 (unreleased)
+## v1.1.0 (2026-09-28)
 
 - Klaviyo mapping 1.1: 22 corrections verified against the claude.ai Klaviyo connector on two live accounts, 2026-09-10 to 24, each marked "(live 2026-09)"; everything else stays marked unverified
 - New "Connector and session" section: confirm the account with `get_account_details` first, deferred tools, large results, counts that drift within a day
