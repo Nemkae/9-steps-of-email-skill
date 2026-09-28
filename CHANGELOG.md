@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.0 (unreleased)
+
+- Klaviyo mapping 1.1: 22 corrections verified against the claude.ai Klaviyo connector on two live accounts, 2026-09-10 to 24, each marked "(live 2026-09)"; everything else stays marked unverified
+- New "Connector and session" section: confirm the account with `get_account_details` first, deferred tools, large results, counts that drift within a day
+- Corrected: `get_sending_domains` works (was "beta, may be absent"); `list_suppressions` and bulk export jobs don't exist; consent counts come from paginated `get_profiles`; predictive analytics may be requested when no store export exists
+- Added read facts for forms, flow definitions and re-entry, consent metrics, consent page text, integrations, segment sizing and conditions, catalog, billing, metric aggregates, attributed revenue, coupons
+
 ## v1.0.0 (2026-08-17)
 
 First public release.
